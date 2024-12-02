@@ -1,12 +1,15 @@
+
+// importing classes from packages
 import global.*;
 import person.*;
 import school.*;
 
-class Second {
+public class Main {
     public static void main(String[] args) {
-        String a = "test";
-        System.out.println("test");
-        EducationGrade obj = new EducationGrade();
 
+        EducationState obj = new EducationState("ps");
+        System.out.println(obj.get_name());
+
+        // obj.addGrade()
     }
 }
