@@ -1,5 +1,5 @@
-package global;
+package globals;
 
 public class EducationGroup {
-    ;
+    
 }

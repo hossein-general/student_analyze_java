@@ -1,6 +1,6 @@
-package global;
+package globals;
 
-import global.EducationGrade;
+import globals.EducationGrade;
 
 public class EducationState {
     // Initializing Variables
@@ -8,16 +8,15 @@ public class EducationState {
 
     // Constructor
     public EducationState(String nameParam) {
-        name = nameParam;
+        this.name = nameParam;
     }
     
     // Name Getter and Setter
     public String get_name() {
         return name;
     }
-    
     public void set_name(String nameParam) {
-        name = nameParam;
+        this.name = nameParam;
     }
     
     // Creating other class
@@ -27,5 +26,9 @@ public class EducationState {
         return eg;
     }
     
+    // the string that represents the name of each instance
+    public String toString(){
+        return this.name;
+    }
 
 }
