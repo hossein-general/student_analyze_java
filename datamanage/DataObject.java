@@ -17,5 +17,9 @@ public class DataObject {
     public String toString(){
         return this.dataName;
     }
+
+    public Dictionary getItems() {
+        return this.items;
+    }
     
 }

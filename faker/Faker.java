@@ -15,7 +15,7 @@ public final class Faker {
         data.es.items.put("hs1", new EducationState("High School 1st"));
         data.es.items.put("hs2", new EducationState("High School 2nd"));
         data.es.items.put("u", new EducationState("University"));
-        System.out.println(data.es.items);
+        // System.out.println(data.es.items);
     }
 
 }
