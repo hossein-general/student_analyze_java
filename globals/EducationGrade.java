@@ -1,5 +1,12 @@
 package globals;
 
 public class EducationGrade {
-    public int x = 10;
+    EducationState parentES;
+    String name;
+
+    public EducationGrade(String name, EducationState es) {
+        this.name = name;
+        this.parentES = es;
+
+    }
 }

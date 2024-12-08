@@ -1,7 +1,5 @@
 package globals;
 
-import globals.EducationGrade;
-
 public class EducationState {
     // Initializing Variables
     String name;
@@ -21,10 +19,16 @@ public class EducationState {
     
     // Creating other class
     // Creating Education Grades for current Education State
-    public EducationGrade addGrade() {
-        EducationGrade eg = new EducationGrade();
-        return eg;
+    public EducationGrade addGrade(String name) {
+        EducationGrade egd = new EducationGrade(name, this);
+        return egd;
     }
+
+    public EducationGroup addGroup(String name, boolean directUse, EducationGroup... egps) {
+        EducationGroup egp = new EducationGroup(this, name, directUse, egps);
+        return egp;
+    }
+
     
     // the string that represents the name of each instance
     public String toString(){
