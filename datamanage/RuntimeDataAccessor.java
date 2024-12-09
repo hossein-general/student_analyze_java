@@ -3,6 +3,7 @@ package datamanage;
 // importings
 import datamanage.DataObject;
 
+// این کلاس دیتا آبچکت ها رو نگه داری می کنه - مثل یک دیتا بیس که شامل تیبل هاست
 public class RuntimeDataAccessor {
     // data objects that are contained within the program and need to be stored somewhere
     public DataObject es;

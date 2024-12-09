@@ -1,5 +1,6 @@
 package globals;
 
+// این کلاس شامل مقاطغ تحصلی هست (مثل دبستا، دبیرستان متوسطه اول، دبیرستان متوسطه دوم و ۰۰۰)
 public class EducationState {
     // Initializing Variables
     String name;
@@ -19,11 +20,13 @@ public class EducationState {
     
     // Creating other class
     // Creating Education Grades for current Education State
+    // ساختن درجه های تجفیلی
     public EducationGrade addGrade(String name) {
         EducationGrade egd = new EducationGrade(name, this);
         return egd;
     }
 
+    // ساختن گروه های تجصیلی
     public EducationGroup addGroup(String name, boolean directUse, EducationGroup... egps) {
         EducationGroup egp = new EducationGroup(this, name, directUse, egps);
         return egp;

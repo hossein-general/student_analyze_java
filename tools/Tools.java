@@ -1,5 +1,6 @@
 package tools;
 
+// جهت بررسی عدد شدنی بودن یک استرینگ
 public class Tools {
     public static boolean isNumeric(String str) { 
         try {  

@@ -3,6 +3,7 @@ package globals;
 import java.util.ArrayList;
 import java.util.List;
 
+// درس های مربوط به هر مقطغ و گرید
 public class Lesson {
     EducationGroup parentEGP;
     String name;

@@ -7,6 +7,7 @@ import school.*;
 import datamanage.*;
 
 public final class Faker {
+    // این متد برای دیتا آبجکت ها مقدار الکی تولید می کند
     private Faker() {} // to prevent instance creatin
 
     // initializing data within objects with fake data

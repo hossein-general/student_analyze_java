@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 
 // the UserIn class is used to store previous user inputs and maybe some more functionality in the future
+// یک کلاس برای مدیریت ورودی ها - دلیل اصلس استفاده از این کلاس افزودن قابلیت نگهداری از ورودی های قبلی است
 class UserIn {
     String catched; // the last value that was inputted
     Scanner inp = new Scanner(System.in); // the scanner object for inputs
@@ -25,6 +26,7 @@ class UserIn {
 
         // getting input and printing the "showing_text" value, as well as the last
         // entered value as a placeholder value
+        // اگر ورودی جدیدی وارد نشد همان مقدار قبلی رو به عنوان ورودی برگردان
         if (placeholder_text == "")
             System.out.printf("%s", showing_text);
         else

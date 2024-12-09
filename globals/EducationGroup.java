@@ -3,6 +3,7 @@ package globals;
 import java.util.ArrayList;
 import java.util.List;
 
+// گروه های تجصیلی مثل تجربی ریاضی و ...
 public class EducationGroup {
     EducationState parentES;
     String name;
